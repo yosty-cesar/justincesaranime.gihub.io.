@@ -1,0 +1,44 @@
+html{
+
+    background:no-repeat center center fixed url("https://thumbs.gfycat.com/PlainFriendlyFowl-size_restricted.gif");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.img{
+    width: 36%;
+    margin-left: 33%;
+
+    display:inline-table;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.img:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
+
+h1 {
+    width: auto;
+    position: relative;
+    font-size: 5rem;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+    text-align: center;
+}
